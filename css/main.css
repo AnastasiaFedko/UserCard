@@ -45,12 +45,14 @@ box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.63);
     position: absolute;
     left: 75px;
     top: -75px;
+    border-radius: 50%;  
 }
 #userPhoto{  
-    border-radius: 50%;      
+        
     object-fit: cover;
     width: inherit;
     height: inherit;
+    border-radius: inherit;
 }
 #userInfo{
     font-family: Arial, Helvetica, sans-serif;
